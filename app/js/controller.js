@@ -22,7 +22,7 @@ $scope.makeLogin = function(){
 		 	
 		 	console.log( data, status, headers, config );
 		 	if( data == 'success'){
-		 		//this this if you want to change the URL and add it to the history stack
+		 		//this this if you want to change the URL and add it to the history stack with new branch
 		 		$location.path('/admin');
     			$scope.$apply();	
 		 	}
