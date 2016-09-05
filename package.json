@@ -1,0 +1,35 @@
+{
+  "name": "angular-project",
+  "version": "1.0.0",
+  "description": "Testing angular with node",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery": "^3.1.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "angular",
+    "node"
+  ],
+  "author": "Tuhin",
+  "license": "ISC"
+}

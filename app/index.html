@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "portal">
+	<head>
+		<title>User Portal</title>
+	</head>
+	<body ng-controller="portalCtrl">
+		<div class="form-cont">
+			<form method="POST" action="">
+				<div class="row">Username: <input type="text"  ng-model="username" /></div>
+				<div class="row">Password: <input type="password"  ng-model="password" /></div>
+				<div class="row"> <input type="button" ng-click="makeLogin();" value="Submit" /> </div>
+			</form>
+		</div>
+
+	</body>
+	<script src="/node/jquery/dist/jquery.min.js"></script>
+	<script src="/node/angular/angular.js"></script>
+	<script src="/src/js/controller.js"></script>
+</html>
